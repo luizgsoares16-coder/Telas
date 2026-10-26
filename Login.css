@@ -1,0 +1,28 @@
+.Tela {
+    background-color: aliceblue;
+    padding: 24px 16px;
+    box-sizing: border-box;
+    width: 50rem;
+    height: 50rem;
+}
+
+.botaoContraste {
+    background: rgb(231, 231, 231);
+    padding: 6px 4px;
+    color: rgb(1, 1, 47);
+    width: 79px;
+    border-radius: 16px;
+    padding-left: 20px;
+}
+
+.botaoLetras {
+
+    display: flex;
+    justify-content: space-between; /* Empurra um para cada lado */
+    align-items: center;            /* Alinha os dois perfeitamente no meio vertical */
+    padding: 10px 20px;             /* Espaçamento interno para não colarem na borda da tela */
+    background-color: #f0f4f8;      /* Cor de fundo única (ajuste para a cor que desejar) */
+    width: 100%;                    /* Garante que ocupe a largura total da tela */
+    box-sizing: border-box;
+}
+
